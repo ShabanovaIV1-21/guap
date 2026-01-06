@@ -408,6 +408,12 @@ a {
     justify-self: center;
 }
 
+@media screen and (max-width: 576px) {
+  .order-form-inputs {
+    width: 320px;
+  }
+}
+
 .order-form-inputs input, textarea {
     border: 1px solid white;
     border-radius: 60px;
@@ -725,3 +731,4 @@ a {
     }
 
 }
+
