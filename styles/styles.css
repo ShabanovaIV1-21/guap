@@ -410,7 +410,7 @@ a {
 
 @media screen and (max-width: 576px) {
   .order-form-inputs {
-    width: 320px;
+    width: 300px;
   }
 }
 
@@ -731,4 +731,5 @@ a {
     }
 
 }
+
 
