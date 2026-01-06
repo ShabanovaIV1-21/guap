@@ -459,28 +459,14 @@ a {
   position: relative;
   bottom: 2.864583vw;
   padding-top: 5.2vw;
-}
-.footer__text {
-  color: white;
-  /* align-self: center; */
-  text-align: center;
-  /* font-family: "JetBrains Mono"; */
   font-size: 12px;
-  /* font-weight: 300; */
-}
-@media screen and (max-width: 768px) {
-  .footer__text {
-    text-align: center;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    /* font-size: 1.2vw; */
-  }
 }
 .footer__column {
   display: flex;
   justify-content: space-between;
   /* width: 100%; */
-  gap: 30px
+  gap: 30px;
+  flex-wrap: wrap;
 
 }
 .footer__icons-link {
@@ -731,5 +717,6 @@ a {
     }
 
 }
+
 
 
