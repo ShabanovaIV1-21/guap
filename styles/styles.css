@@ -448,7 +448,8 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 0 5.2vw 0 5.2vw;
+  margin: 0 30px;
+  gap: 30px;
   position: relative;
   bottom: 2.864583vw;
   padding-top: 5.2vw;
@@ -722,4 +723,5 @@ a {
         line-height: 38px;
         font-size: 14px;
     }
+
 }
